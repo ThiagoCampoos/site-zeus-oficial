@@ -59,97 +59,69 @@
 </head>
 
 <body>
-  <!-- <div id="preloader-active">
-      <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="preloader-inner position-relative">
-          <div class="text-center"><img src="assets/imgs/template/loading.gif" alt="Zeus"></div>
-        </div>
+    <!-- New Modern Navbar -->
+  <header class="zeus-navbar">
+    <div class="container zeus-navbar-container">
+      <div class="zeus-navbar-logo">
+        <a href="index.html">
+          <img alt="Zeus" src="assets/img/logo/blue_horizontal.png" width="140px">
+        </a>
       </div>
-    </div> -->
-    <header class="header sticky-bar">
-      <div class="container">
-        <div class="main-header">
-          <div class="header-left">
-            <div class="header-logo"><a class="d-flex" href="index.html"><img alt="Nivia"
-                  src="assets/img/logo/white_horizontal.png" width="140px"></a></div>
-                  <div class="header-nav">
-                    <nav class="nav-main-menu d-none d-xl-block">
-                      <ul class="main-menu">
-                        <li class=""><a class="active" href="index.html">Home</a></li>
-                        <li class=""><a href="#resources">Recursos</a></li>
-                        <li class=""><a href="#questions">Dúvidas</a></li>
-                        <li class=""><a href="#plans-prices">Planos</a></li>
-                        <li class="has-children"><a href="#">Soluções <i style="font-size: 12px; margin-left: 5px;"></i></a>
-                          <ul class="sub-menu" style="top: 100%; left: 0; min-width: 240px; position: absolute; z-index: 999;">
-                            <li><a href="envio-integracao.html">Envio por integração</a></li>
-                            <li><a href="envio-massa.html">Envio em Massa</a></li>
-                            <li><a href="chat-bot.html">Chatboot para whatsapp</a></li>
-                            <li><a href="plataforma-atendimento.html">Plataforma de atendimento</a></li>
-                          </ul>
-                        </li>
-                        <li class=""><a href="https://wa.me/+5534991601226" target="_blank">Contato</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-          </div>
-          <a class="btn btn-brand-4-medium hover-up" href="https://app.autozeus.com.br" target="_blank">Login</a>
-      </div>
-      </div>
-    </header>
-
-  <!--MENU MOBILE -->
-
-
-  <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar">
-    <div class="mobile-header-wrapper-inner">
-      <div class="burger-icon burger-icon-white"><span class="burger-icon-top"></span><span
-          class="burger-icon-mid"></span><span class="burger-icon-bottom"></span></div>
-      <div class="mobile-header-top">
-        <div class="user-account"><img src="assets/img/logo/favicon.png" alt="Zeus" height="30px">
-          <div class="content">
-            <h4 class="user-name">Zeus Automação</h4>
-          </div>
-        </div>
-      </div>
-      <div class="mobile-header-content-area">
-        <div class="perfect-scroll">
-          <div class="mobile-menu-wrap mobile-header-border">
-            <nav>
-              <ul class="mobile-menu font-heading">
-                <li class=""><a class="active" href="index.html">Home</a></li>
-                <li class="follow-section"><a href="#resources">Recursos</a></li>
-                <li class="follow-section"><a href="#questions">Dúvidas</a></li>
-                <li class="follow-section"><a href="#plans-prices">Planos</a></li>
-                <li class="has-children"><a href="#">Soluções</a>
-                  <ul class="sub-menu" style="top: 100%; left: 0; min-width: 240px; position: absolute; z-index: 999;">                  <ul class="sub-menu" style="top: 100%; left: 0; min-width: 240px; position: absolute; z-index: 999;">
-                    <li><a href="envio-integracao.html">Envio por integração</a></li>
-                    <li><a href="#massa">Envio em Massa</a></li>
-                    <li><a href="#chatbot">Chatboot para whatsapp</a></li>
-                    <li><a href="#atendimento">Plataforma de atendimento</a></li>
-                  </ul>
-                </li>
-                <li class="follow-section"><a href="https://wa.me/+5534991601226" target="_blank">Contato</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="mobile-account">
-            <h6 class="mb-10">Login Plataforma</h6>
-            <ul class="mobile-menu font-heading">
-              <li><a href="https://app.autozeus.com.br" target="_blank">Acesse Aqui</a></li>
-            </ul>
-          </div>
-          <div class="mobile-social-icon mb-50">
-            <h6 class="mb-25">Redes Sociais</h6><a class="icon-socials icon-facebook" href="#">
-              <img alt="Nivia" src="assets/imgs/template/icons/fb.svg"></a>
-            <a class="icon-socials icon-instagram" href="#"><img alt="Zeus" src="assets/imgs/template/icons/in.png"></a>
-            <a class="icon-socials icon-twitter" href="#"><img alt="Zeus" src="assets/imgs/template/icons/tw.svg"></a>
-            <a class="icon-socials icon-be" href="#"><img alt="Zeus" src="assets/imgs/template/icons/be.svg"></a>
-          </div>
-          <div class="site-copyright">Copyright 2024 &copy; Zeus Automação para Whatsapp</div>
-        </div>
-      </div>
+      
+      <ul class="zeus-navbar-menu">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#resources">Recursos</a></li>
+        <li><a href="#questions">Dúvidas</a></li>
+        <li><a href="#plans-prices">Planos</a></li>
+        <li class="has-submenu">
+          <a href="#">Soluções</a>
+          <ul class="zeus-navbar-submenu">
+            <li><a href="envio-integracao.html">Envio por integração</a></li>
+            <li><a href="envio-massa.html">Envio em Massa</a></li>
+            <li><a href="chat-bot.html">Chatbot para whatsapp</a></li>
+            <li><a href="plataforma-atendimento.html">Plataforma de atendimento</a></li>
+          </ul>
+        </li>
+        <li><a href="https://wa.me/+5534991601226" target="_blank">Contato</a></li>
+      </ul>
+      
+      <a class="zeus-navbar-login" href="https://app.autozeus.com.br" target="_blank">
+        <i class="fas fa-user-circle mr-2"></i> Login
+      </a>
+      
+      <button class="zeus-navbar-toggle" id="mobileMenuToggle">
+        <i class="fas fa-bars"></i>
+      </button>
     </div>
+  </header>
+  
+  <!-- Mobile Menu -->
+  <div class="zeus-mobile-menu" id="mobileMenu">
+    <button class="zeus-mobile-close" id="mobileMenuClose">
+      <i class="fas fa-times"></i>
+    </button>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="#resources">Recursos</a></li>
+      <li><a href="#questions">Dúvidas</a></li>
+      <li><a href="#plans-prices">Planos</a></li>
+      <li class="has-submenu">
+        <a href="#">Soluções</a>
+        <ul class="zeus-mobile-submenu">
+          <li><a href="envio-integracao.html">Envio por integração</a></li>
+          <li><a href="envio-massa.html">Envio em Massa</a></li>
+          <li><a href="chat-bot.html">Chatbot para whatsapp</a></li>
+          <li><a href="plataforma-atendimento.html">Plataforma de atendimento</a></li>
+        </ul>
+      </li>
+      <li><a href="https://wa.me/+5534991601226" target="_blank">Contato</a></li>
+    </ul>
+    <a class="zeus-mobile-login" href="https://app.autozeus.com.br" target="_blank">
+      <i class="fas fa-user-circle mr-2"></i> Acessar Plataforma
+    </a>
   </div>
+  
+  <div class="overlay" id="overlay"></div>
 
   <!--MENU MOBILE END-->
 
@@ -178,47 +150,78 @@
 
     <!-- clientes -->
 
-    <!-----logos clinnte
-    <section class="section-box wow animate__animated animate__fadeIn box-logos-2 box-logos-3">
+    
+    <section class="zeus-partners-section">
       <div class="container">
-        <div class="carouselTickerLogos2 carouselTicker_vertical" id="slide-logos">
-          <ul class="carouselTicker__list list-logos">
-            <li class="carouselTicker__item">
-              <div class="item-logo"><img src="assets/img/logo/nsoluçoes-removebg-preview.png" alt="Nivia"></div>
-            </li>
-            <li class="carouselTicker__item">
-              <div class="item-logo"><img src="assets/img/logo/conceição-removebg-preview.png" alt="Nivia"></div>
-            </li>
-            <li class="carouselTicker__item">
-              <div class="item-logo"><img src="assets/img/logo/Dmae-removebg-preview.png" alt="Nivia"></div>
-            </li>
-            <li class="carouselTicker__item">
-              <div class="item-logo"><img src="assets/img/logo/drugovich-removebg-preview.png" alt="Nivia"></div>
-            </li>
-            <li class="carouselTicker__item">
-              <div class="item-logo"><img  src="assets/img/logo/movistar-removebg-preview.png" alt="Nivia"></div>
-            </li>
-            <li class="carouselTicker__item">
-              <div class="item-logo"><img src="assets/img/logo/ozmoze-removebg-preview.png" alt="Nivia"></div>
-            </li>
-            <li class="carouselTicker__item">
-              <div class="item-logo"><img src="assets/img/logo/saae-removebg-preview.png" alt="Nivia"></div>
-            </li>
-            <li class="carouselTicker__item">
-              <div class="item-logo"><img src="assets/img/logo/ultragaz-removebg-preview.png" alt="Nivia"></div>
-            </li>
-            <li class="carouselTicker__item">
-              <div class="item-logo"><img src="assets/img/logo/xavier-removebg-preview.png" alt="Nivia"></div>
-            </li>
-            <li class="carouselTicker__item">
-              <div class="item-logo"><img src="assets/img/logo/yamaha-removebg-preview.png" alt="Nivia"></div>
-            </li>
-          </ul>
+      <div class="zeus-partners-carousel">
+        <div class="zeus-partners-track">
+          <!-- First set of logos -->
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/nsoluçoes-removebg-preview.png" alt="NSoluções">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/conceição-removebg-preview.png" alt="Conceição">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/Dmae-removebg-preview.png" alt="Dmae">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/drugovich-removebg-preview.png" alt="Drugovich">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/movistar-removebg-preview.png" alt="Movistar">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/ozmoze-removebg-preview.png" alt="Ozmoze">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/saae-removebg-preview.png" alt="SAAE">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/ultragaz-removebg-preview.png" alt="Ultragaz">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/xavier-removebg-preview.png" alt="Xavier">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/yamaha-removebg-preview.png" alt="Yamaha">
+          </div>
+          
+          <!-- Duplicate logos for seamless scrolling -->
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/nsoluçoes-removebg-preview.png" alt="NSoluções">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/conceição-removebg-preview.png" alt="Conceição">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/Dmae-removebg-preview.png" alt="Dmae">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/drugovich-removebg-preview.png" alt="Drugovich">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/movistar-removebg-preview.png" alt="Movistar">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/ozmoze-removebg-preview.png" alt="Ozmoze">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/saae-removebg-preview.png" alt="SAAE">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/ultragaz-removebg-preview.png" alt="Ultragaz">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/xavier-removebg-preview.png" alt="Xavier">
+          </div>
+          <div class="zeus-partner-item">
+            <img src="assets/img/logo/yamaha-removebg-preview.png" alt="Yamaha">
+          </div>
         </div>
       </div>
     </section>
-    ----->
-
+   
 
     <section id="resources" class="section-box wow animate__animated animate__fadeIn box-our-features-5">
       <div class="container">
@@ -574,32 +577,41 @@
                 href="https://wa.me/+5534991601226" target="_blank">&nbsp; time de suporte</a>&nbsp;</div>
           </div>
         </div>
-        <!----logo plataformas----
-        <div style="margin-top: 30px; margin-bottom: 20px;" class="text-center"><a class="btn btn-brand-5" href="#">INTEGRE COM OUTRAS PLATAFORMAS</a>
-          <div style="padding: 30px 40px 15px 40px;" class="container">
-            <div class="carouselTickerLogos2 carouselTicker_horizontal" id="slide-logos-bottom">
-              <ul class="carouselTicker__list list-logos d-flex justify-content-center align-items-center" style="gap: 10px;">
-                <li class="carouselTicker__item" style="margin: 0 20px;">
-                  <div class="item-logo" style="max-width: 180px;"><img src="assets/img/logo/hotmart.png" alt="Zeus"></div>
-                </li>
-                <li class="carouselTicker__item" style="margin: 0 5px;">
-                  <div class="item-logo" style="max-width: 180px;"><img src="assets/img/logo/eduzz.png" alt="Zeus"></div>
-                </li>
-                <li class="carouselTicker__item" style="margin: 0 5px;">
-                  <div class="item-logo" style="max-width: 100px;"><img src="assets/img/logo/mercado livre.png" alt="Zeus"></div>
-                </li>
-                <li class="carouselTicker__item" style="margin: 0 5px;">
-                  <div class="item-logo" style="max-width: 180px;"><img src="assets/img/logo/monetizze.png" alt="Zeus"></div>
-                </li>
-                <li class="carouselTicker__item" style="margin: 0 5px;">
-                  <div class="item-logo" style="max-width: 80px;"><img src="assets/img/logo/logo kiwify.png" alt="Zeus"></div>
-                </li>
-              </ul>
+        <div class="container">
+          <div class="zeus-partners-carousel integration-section">
+            <div class="zeus-partners-title text-center">
+            </div>
+            <div class="zeus-partners-track">
+              <!-- First set of logos -->
+              <div class="zeus-partner-item">
+                <img src="assets/img/logo/eduzz.png" alt="Eduzz">
+              </div>
+              <div class="zeus-partner-item">
+                <img src="assets/img/logo/monetizze.png" alt="Monetizze">
+              </div>
+              <div class="zeus-partner-item">
+                <img src="assets/img/logo/logo kiwify.png" alt="Kiwify">
+              </div>
+              <div class="zeus-partner-item">
+                <img src="assets/img/logo/mercado livre.png" alt="Mercado Livre">
+              </div>
+              
+              <!-- Duplicate logos for seamless scrolling -->
+              <div class="zeus-partner-item">
+                <img src="assets/img/logo/eduzz.png" alt="Eduzz">
+              </div>
+              <div class="zeus-partner-item">
+                <img src="assets/img/logo/monetizze.png" alt="Monetizze">
+              </div>
+              <div class="zeus-partner-item">
+                <img src="assets/img/logo/logo kiwify.png" alt="Kiwify">
+              </div>
+              <div class="zeus-partner-item">
+                <img src="assets/img/logo/mercado livre.png" alt="Mercado Livre">
+              </div>
             </div>
           </div>
         </div>
-        ---->
-      </div>
     </section>
     <section id="plans-prices" class="section-box box-pricing-2">
       <div class="box-pricing-2-inner">
@@ -737,8 +749,8 @@
                     </ul>
                   </div>
                   <p style="margin-bottom: 30px;" class="text-16-bold">Consultar valores implantação</p>
-                  <div class="card-button"><a class="btn btn-get-started"
-                      href="https://pay.hotmart.com/D94722620P">Contrate Agora
+                  <div class="card-button"><a class="btn btn-get-started" target="_blank"
+                       href="https://api.whatsapp.com/send/?phone=%2B5534991601226&text&type=phone_number&app_absent=0">Contrate Agora 
                       <svg width="23" height="8" viewbox="0 0 23 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
                           fill=""></path>
@@ -890,7 +902,7 @@
                     <p style="margin-bottom: 30px;" class="text-16-bold">Consultar valores implantação</p>
                   </div>
                   <div class="card-button"><a class="btn btn-get-started"
-                      href="https://pay.hotmart.com/W94685101R">Contrate Agora
+                      href="https://api.whatsapp.com/send/?phone=%2B5534991601226&text&type=phone_number&app_absent=0">Contrate Agora
                       <svg width="23" height="8" viewbox="0 0 23 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
                           fill=""></path>
@@ -1090,7 +1102,7 @@
                     <p style="margin-bottom: 30px;" class="text-16-bold">Consultar valores implantação</p>
                   </div>
                   <div class="card-button"><a class="btn btn-get-started"
-                      href="https://pay.hotmart.com/V94722843G">Contrate Agora
+                      href="https://api.whatsapp.com/send/?phone=%2B5534991601226&text&type=phone_number&app_absent=0">Contrate Agora
                       <svg width="23" height="8" viewbox="0 0 23 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.5 3.99934L18.9791 0.478516V3.30642H0.5V4.69236H18.9791V7.52031L22.5 3.99934Z"
                           fill=""></path>
